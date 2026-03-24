@@ -8,7 +8,14 @@ Next, the Planet script breaks down the CSV so that it can later be used in the 
 With this, it will be used in our Python visualiser script to view our built RBT.
 
 There are comments left inside the Main Java script and on the Python script on how to execute them.
-As it says in the Main file, compile the project first. Then, use the absolute path to read the CSV file and put quotes around when using the command in a terminal.
+As it says in the Main file, compile the project first.
+
+`javac -d out src/rbtree/*.java`
+
+Then, use the absolute path to read the CSV file and put quotes around when using the command in a terminal.
+
+`java -cp out rbtree.Main "<absolute-path-to-csv>" [output.json]`
 
 For the Python script, make sure both the exported JSON and the script are in the same directory.
-The file path read is HARDCODED, so make sure the file name is equal to the file path Python is reading. Then, just simply run the program.
+The file path read is HARDCODED, so make sure the file name is equal to the file path Python is reading.
+Then, just simply run the program.
