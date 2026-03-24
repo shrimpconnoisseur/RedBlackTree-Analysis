@@ -1,5 +1,5 @@
 Consists of two "projects", the Red-Black Tree itself done in Java, and the RBT visualiser done in Python.
-Was there any reason to do them in different languages? Probably not, other than maybe some performance differences.
+There are a few reasons for this decision, but you may already know why if you're here in the first place.
 
 The Red-Black Tree project in Java has more than just the RBT, it has a CSV reader that ONLY reads the NASA Planetary Systems table (included in the project).
 The table was exported from their website, find it here: https://exoplanetarchive.ipac.caltech.edu/index.html
