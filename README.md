@@ -7,4 +7,8 @@ The table was exported from their website, find it here: https://exoplanetarchiv
 Next, the Planet script breaks down the CSV so that it can later be used in the JSON exporter script.
 With this, it will be used in our Python visualiser script to view our built RBT.
 
-This was painful.
+There are comments left inside the Main Java script and on the Python script on how to execute them.
+As it says in the Main file, compile the project first. Then, use the absolute path to read the CSV file and put quotes around when using the command in a terminal.
+
+For the Python script, make sure both the exported JSON and the script are in the same directory.
+The file path read is HARDCODED, so make sure the file name is equal to the file path Python is reading. Then, just simply run the program.
